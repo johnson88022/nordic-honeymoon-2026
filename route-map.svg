@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="title description">
+  <title id="title">2026 北歐蜜月交通路線示意圖</title>
+  <desc id="description">台北經杜拜前往奧斯陸，經博德轉機至羅弗敦 Leknes，沿 E10 公路到 Svolvær，搭沿海船至 Tromsø，再前往 Rovaniemi、Helsinki，往返 Tallinn，最後經杜拜返台。圖不按比例，虛線路段與航班均須按票券確認。</desc>
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ff5a1f"/></marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#244d83"/></marker>
+    <style>
+      text{font-family:Arial,'Noto Sans TC',sans-serif;fill:#111}
+      .title{font-size:30px;font-weight:900}.sub{font-size:15px;fill:#68665f}
+      .route{fill:none;stroke:#ff5a1f;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowOrange)}
+      .pending{fill:none;stroke:#244d83;stroke-width:5;stroke-dasharray:12 10;stroke-linecap:round;marker-end:url(#arrowBlue)}
+      .node{fill:#fff;stroke:#111;stroke-width:4}.airport{fill:#ffe0d5}.name{font-size:17px;font-weight:800}.code{font-size:12px;fill:#68665f;font-weight:700}.label{font-size:13px;font-weight:700;fill:#45433e}
+    </style>
+  </defs>
+  <rect width="1500" height="760" rx="24" fill="#f7f5ef"/>
+  <text x="55" y="58" class="title">NORDIC HONEYMOON · ROUTE 2026</text>
+  <text x="55" y="88" class="sub">2026/11/23–12/08｜示意圖，不按比例｜查核日 2026/11/11</text>
+  <line x1="870" y1="55" x2="930" y2="55" class="route"/><text x="945" y="60" class="label">行程主線</text>
+  <line x1="1080" y1="55" x2="1140" y2="55" class="pending"/><text x="1155" y="60" class="label">票券／營運待確認</text>
+
+  <!-- Nordic sequence -->
+  <path d="M180 260 L335 190" class="pending"/>
+  <path d="M335 190 L485 250" class="pending"/>
+  <path d="M485 250 L620 225" class="route"/>
+  <path d="M620 225 Q670 145 555 125" class="pending"/>
+  <path d="M555 125 Q720 90 850 135" class="pending"/>
+  <path d="M850 135 Q930 190 1010 270" class="route"/>
+  <path d="M1010 270 Q1120 240 1200 300" class="pending"/>
+  <path d="M1200 325 Q1120 385 1010 295" class="pending"/>
+
+  <circle cx="180" cy="260" r="15" class="node airport"/><text x="145" y="295" class="name">Oslo</text><text x="145" y="314" class="code">OSL</text>
+  <circle cx="335" cy="190" r="15" class="node airport"/><text x="300" y="160" class="name">Bodø</text><text x="300" y="178" class="code">BOO · 轉機</text>
+  <circle cx="485" cy="250" r="15" class="node airport"/><text x="450" y="285" class="name">Leknes</text><text x="450" y="304" class="code">LKN</text>
+  <circle cx="620" cy="225" r="15" class="node"/><text x="590" y="260" class="name">Svolvær</text><text x="595" y="279" class="code">E10 巴士</text>
+  <circle cx="555" cy="125" r="15" class="node airport"/><text x="520" y="105" class="name">Tromsø</text><text x="520" y="123" class="code">TOS</text>
+  <circle cx="850" cy="135" r="15" class="node airport"/><text x="815" y="105" class="name">Rovaniemi</text><text x="830" y="123" class="code">RVN</text>
+  <circle cx="1010" cy="270" r="15" class="node"/><text x="975" y="305" class="name">Helsinki</text><text x="990" y="324" class="code">HEL</text>
+  <circle cx="1200" cy="300" r="15" class="node"/><text x="1165" y="340" class="name">Tallinn</text><text x="1180" y="359" class="code">TLL</text>
+
+  <text x="215" y="198" class="label">航班待核票</text>
+  <text x="365" y="224" class="label">Bodø → LKN</text>
+  <text x="505" y="218" class="label">E10 公路巴士</text>
+  <text x="580" y="150" class="label">沿海夜船</text>
+  <text x="675" y="105" class="label">航班時刻有兩版</text>
+  <text x="875" y="205" class="label">VR 夜車</text>
+  <text x="1085" y="265" class="label">渡輪去程</text>
+  <text x="1080" y="370" class="label">渡輪回程</text>
+
+  <!-- International flights -->
+  <path d="M155 610 L390 610" class="pending"/>
+  <path d="M390 610 Q420 430 180 275" class="pending"/>
+  <path d="M1010 290 Q850 500 390 635" class="pending"/>
+  <path d="M390 635 L155 635" class="pending"/>
+  <circle cx="155" cy="610" r="15" class="node airport"/><text x="125" y="575" class="name">台北</text><text x="134" y="595" class="code">TPE</text>
+  <circle cx="390" cy="610" r="15" class="node airport"/><text x="360" y="575" class="name">杜拜</text><text x="360" y="595" class="code">DXB</text>
+  <text x="190" y="590" class="label">11/23 出境航段待補票</text>
+  <text x="520" y="520" class="label">12/07–08 返程轉機約 3 小時 20 分；聯程／行李／航廈待核</text>
+  <text x="55" y="700" class="sub">橘線為規劃中的陸路／列車主線；藍色虛線表示尚待票券或當日營運資訊確認。時間、碼頭、站牌與是否直飛，以實際票券及營運商公告為準。</text>
+</svg>
